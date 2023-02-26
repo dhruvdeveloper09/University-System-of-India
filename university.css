@@ -1,7 +1,61 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    height: 100vh;
+}
+.main-page{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px ;
+    color: black;
+    font-family: cursive;
+}
+.university-system{
+    margin: 5px;
+    font-family: sans-serif;
+}
+.university-system p{
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.system{
+    display: flex;
+    margin: 30px 5px;
+    padding: 10px 10px;
+}
 .iit-system a{
-    background-color: red;
-    padding: 10px;
-    margin: 10px;
+    background-color: maroon;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.nit-system a{
+    background-color: maroon;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.iiser-system a{
+    background-color: maroon;
+    padding: 20px 10px;
+    margin: 20px 10px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
