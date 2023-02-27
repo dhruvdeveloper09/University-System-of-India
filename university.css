@@ -60,3 +60,50 @@ body{
     text-decoration: none;
     color: white;
 }
+.iit-system:hover a{
+    background-color: green;
+}
+.nit-system:hover a{
+    background-color: orange;
+    color: black;
+}
+.iiser-system:hover a{
+    background-color: salmon;
+}
+.structure{
+    margin: 5px;
+    font-family: sans-serif;
+}
+.structure p{
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ugc p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+.ugc::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.ugc1{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.aicte p{
+    margin: 10px;
+}
+.aicte::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.aicte1{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
